@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slash8chai-promptlead_jd466"
+version = "0.1.0"
+description = "在同一个输入里两两比对，检测Prompt 工程负责人·知识库的时效性维护相关的矛盾表述，把冲突双方原样并排呈现"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "slash8chai" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://slash8chai.github.io"
+Repository = "https://github.com/slash8chai/promptlead_jd466"
+Issues = "https://github.com/slash8chai/promptlead_jd466/issues"
+
+[project.scripts]
+promptlead_jd466 = "promptlead_jd466:main"
+
+[tool.setuptools]
+py-modules = ["promptlead_jd466"]
